@@ -1,4 +1,8 @@
 package Basics
+
+import Functions.TopLevelFunction
+import Functions.courseName
+
 fun main() {
     val name: String = "Ayoung"
     println(name)
@@ -24,4 +28,10 @@ fun main() {
         CDE
     """.trimIndent()
     println(multiline1)
+
+    val num = TopLevelFunction()
+    println(num)
+
+//    val courseName = courseName;
+    println("Course Name is : $courseName")
 }
