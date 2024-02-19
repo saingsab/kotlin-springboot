@@ -8,4 +8,5 @@ fun main() {
 
     val map = HashMap<Key, String>()
     map[korvo] = "Alien"
+    println(map)
 }
