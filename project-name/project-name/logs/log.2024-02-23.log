@@ -1,0 +1,6 @@
+23-02-2024 08:49:59.855 [HikariPool-1 housekeeper] [APP_NAME_IS_UNDEFINED] WARN com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h58m56s357ms476µs900ns).
+23-02-2024 09:07:36.576 [HikariPool-1 housekeeper] [APP_NAME_IS_UNDEFINED] WARN com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m6s495ms79µs200ns).
+23-02-2024 09:10:52.150 [HikariPool-1 housekeeper] [APP_NAME_IS_UNDEFINED] WARN com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s629ms789µs400ns).
+23-02-2024 09:17:25.036 [SpringApplicationShutdownHook] [APP_NAME_IS_UNDEFINED] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+23-02-2024 09:17:25.052 [SpringApplicationShutdownHook] [APP_NAME_IS_UNDEFINED] INFO com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+23-02-2024 09:17:25.066 [SpringApplicationShutdownHook] [APP_NAME_IS_UNDEFINED] INFO com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

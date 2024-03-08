@@ -1,1 +1,26 @@
-messages: Hello From PROD Profile
+#messages: Hello From PROD Profile
+#custom:
+#  log:
+#    file:
+#      path: logs
+#      file: log
+#      file-error: log_error
+#server:
+#  port: 8009
+#spring:
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        ddl-auto: update
+#        show-sql: false
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/hidb
+#    username: saing
+#    password: 123
+
+spring:
+  application:
+    name: course-catalog-service
+
+message: Hello From PROD Profile

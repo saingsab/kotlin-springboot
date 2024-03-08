@@ -1,0 +1,68 @@
+26-02-2024 16:15:01.975 [main] [course-catalog-service] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 35428 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+26-02-2024 16:15:01.980 [main] [course-catalog-service] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+26-02-2024 16:15:02.846 [main] [course-catalog-service] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26-02-2024 16:15:02.896 [main] [course-catalog-service] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+26-02-2024 16:15:03.444 [main] [course-catalog-service] INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+26-02-2024 16:15:03.452 [main] [course-catalog-service] INFO o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+26-02-2024 16:15:03.454 [main] [course-catalog-service] INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+26-02-2024 16:15:03.454 [main] [course-catalog-service] INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.16]
+26-02-2024 16:15:03.512 [main] [course-catalog-service] INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+26-02-2024 16:15:03.513 [main] [course-catalog-service] INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1474 ms
+26-02-2024 16:15:03.574 [main] [course-catalog-service] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+26-02-2024 16:15:03.579 [main] [course-catalog-service] INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+26-02-2024 16:15:03.602 [main] [course-catalog-service] INFO o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26-02-2024 16:15:03.632 [main] [course-catalog-service] ERRORo.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles prod are currently active).
+
+26-02-2024 16:15:20.685 [main] [course-catalog-service] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 36952 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+26-02-2024 16:15:20.688 [main] [course-catalog-service] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+26-02-2024 16:15:21.621 [main] [course-catalog-service] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26-02-2024 16:15:21.668 [main] [course-catalog-service] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+26-02-2024 16:15:22.272 [main] [course-catalog-service] INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+26-02-2024 16:15:22.280 [main] [course-catalog-service] INFO o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+26-02-2024 16:15:22.283 [main] [course-catalog-service] INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+26-02-2024 16:15:22.283 [main] [course-catalog-service] INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.16]
+26-02-2024 16:15:22.342 [main] [course-catalog-service] INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+26-02-2024 16:15:22.343 [main] [course-catalog-service] INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1605 ms
+26-02-2024 16:15:22.403 [main] [course-catalog-service] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+26-02-2024 16:15:22.409 [main] [course-catalog-service] INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+26-02-2024 16:15:22.433 [main] [course-catalog-service] INFO o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26-02-2024 16:15:22.465 [main] [course-catalog-service] ERRORo.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles prod are currently active).
+

@@ -1,0 +1,448 @@
+21-02-2024 17:22:10.264 [background-preinit] [core_backend] INFO o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+21-02-2024 17:22:10.295 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationTests.logStarting - Starting CourseCatalogServiceApplicationTests using Java 21.0.2 with PID 23808 (started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+21-02-2024 17:22:10.296 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationTests.logStartupProfileInfo - The following 1 profile is active: "@profileActive@"
+21-02-2024 17:22:10.327 [main] [core_backend] DEBUGo.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@56da52a7
+21-02-2024 17:22:10.950 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-02-2024 17:22:10.971 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+21-02-2024 17:22:11.447 [main] [core_backend] WARN com.zaxxer.hikari.HikariConfig.validateNumerics - HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+21-02-2024 17:22:11.448 [main] [core_backend] WARN com.zaxxer.hikari.HikariConfig.validateNumerics - HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+21-02-2024 17:22:11.448 [main] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+21-02-2024 17:22:11.616 [main] [core_backend] INFO com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:66bc586b-eda7-4692-b9f4-ced4628cd7dd user=SA
+21-02-2024 17:22:11.617 [main] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+21-02-2024 17:22:11.658 [main] [core_backend] INFO o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+21-02-2024 17:22:11.722 [main] [core_backend] INFO org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.20.Final
+21-02-2024 17:22:11.724 [main] [core_backend] INFO org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+21-02-2024 17:22:11.982 [main] [core_backend] INFO o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+21-02-2024 17:22:12.304 [main] [core_backend] INFO o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+21-02-2024 17:22:12.309 [main] [core_backend] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-02-2024 17:22:12.654 [main] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+21-02-2024 17:22:12.755 [main] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 3 mappings in 'requestMappingHandlerMapping'
+21-02-2024 17:22:12.778 [main] [core_backend] DEBUGo.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+21-02-2024 17:22:12.786 [main] [core_backend] DEBUGo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+21-02-2024 17:22:12.934 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationTests.logStarted - Started CourseCatalogServiceApplicationTests in 3.025 seconds (process running for 3.878)
+21-02-2024 17:22:13.594 [SpringApplicationShutdownHook] [core_backend] DEBUGo.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@56da52a7, started on Wed Feb 21 17:22:10 ICT 2024
+21-02-2024 17:22:13.598 [SpringApplicationShutdownHook] [core_backend] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+21-02-2024 17:22:13.600 [SpringApplicationShutdownHook] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+21-02-2024 17:22:13.601 [SpringApplicationShutdownHook] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+21-02-2024 17:24:41.857 [background-preinit] [core_backend] INFO o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+21-02-2024 17:24:41.927 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 5756 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+21-02-2024 17:24:41.928 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+21-02-2024 17:24:42.638 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-02-2024 17:24:42.658 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+21-02-2024 17:24:43.188 [main] [core_backend] INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+21-02-2024 17:24:43.198 [main] [core_backend] INFO o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+21-02-2024 17:24:43.200 [main] [core_backend] INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+21-02-2024 17:24:43.201 [main] [core_backend] INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.18]
+21-02-2024 17:24:43.282 [main] [core_backend] INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+21-02-2024 17:24:43.283 [main] [core_backend] INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1295 ms
+21-02-2024 17:24:43.392 [main] [core_backend] WARN com.zaxxer.hikari.HikariConfig.validateNumerics - HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+21-02-2024 17:24:43.393 [main] [core_backend] WARN com.zaxxer.hikari.HikariConfig.validateNumerics - HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+21-02-2024 17:24:43.393 [main] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+21-02-2024 17:24:43.566 [main] [core_backend] INFO com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:aaa0c9d1-3a10-4d4e-8706-7458857807c2 user=SA
+21-02-2024 17:24:43.568 [main] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+21-02-2024 17:24:43.604 [main] [core_backend] INFO o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+21-02-2024 17:24:43.652 [main] [core_backend] INFO org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.20.Final
+21-02-2024 17:24:43.653 [main] [core_backend] INFO org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+21-02-2024 17:24:43.916 [main] [core_backend] INFO o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+21-02-2024 17:24:44.238 [main] [core_backend] INFO o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+21-02-2024 17:24:44.244 [main] [core_backend] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-02-2024 17:24:44.418 [main] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+21-02-2024 17:24:44.502 [main] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 3 mappings in 'requestMappingHandlerMapping'
+21-02-2024 17:24:44.519 [main] [core_backend] DEBUGo.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+21-02-2024 17:24:44.531 [main] [core_backend] DEBUGo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+21-02-2024 17:24:44.632 [main] [core_backend] INFO o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+21-02-2024 17:24:44.651 [main] [core_backend] INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+21-02-2024 17:24:44.660 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarted - Started CourseCatalogServiceApplicationKt in 3.321 seconds (process running for 3.688)
+21-02-2024 17:25:00.242 [http-nio-8080-exec-1] [core_backend] INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-02-2024 17:25:00.243 [http-nio-8080-exec-1] [core_backend] INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+21-02-2024 17:25:00.243 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+21-02-2024 17:25:00.243 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+21-02-2024 17:25:00.243 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+21-02-2024 17:25:00.246 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@19e2db7c
+21-02-2024 17:25:00.247 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@47d9c01
+21-02-2024 17:25:00.247 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+21-02-2024 17:25:00.247 [http-nio-8080-exec-1] [core_backend] INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 4 ms
+21-02-2024 17:25:00.257 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/v1/greetings/Ayoung", parameters={}
+21-02-2024 17:25:00.272 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.kotlinspringboot.coursecatalogservice.controller.GreetingController#retrieveGreeting(String)
+21-02-2024 17:25:00.346 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+21-02-2024 17:25:00.347 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing ["Ayoung, Hello From Default Profile"]
+21-02-2024 17:25:00.354 [http-nio-8080-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+21-02-2024 17:26:02.563 [SpringApplicationShutdownHook] [core_backend] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+21-02-2024 17:26:02.564 [SpringApplicationShutdownHook] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+21-02-2024 17:26:02.565 [SpringApplicationShutdownHook] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+21-02-2024 17:39:39.700 [background-preinit] [core_backend] INFO o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+21-02-2024 17:39:39.781 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 12856 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+21-02-2024 17:39:39.782 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+21-02-2024 17:39:40.403 [main] [core_backend] ERRORo.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.kotlinspringboot.coursecatalogservice.CourseCatalogServiceApplicationKt.main(CourseCatalogServiceApplication.kt:16)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ig.core_backend.config.gson_config.GsonConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:746)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:678)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 37 common frames omitted
+21-02-2024 17:39:40.408 [main] [core_backend] WARN o.s.boot.SpringApplication.handleRunFailure - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.ig.core_backend.config.gson_config.GsonConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:746)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:678)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1311)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:878)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:866)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:853)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:792)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.kotlinspringboot.coursecatalogservice.CourseCatalogServiceApplicationKt.main(CourseCatalogServiceApplication.kt:16)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 25 common frames omitted
+21-02-2024 17:57:00.248 [background-preinit] [core_backend] INFO o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+21-02-2024 17:57:00.326 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 9484 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+21-02-2024 17:57:00.328 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+21-02-2024 17:57:00.887 [main] [core_backend] ERRORo.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.kotlinspringboot.coursecatalogservice.CourseCatalogServiceApplicationKt.main(CourseCatalogServiceApplication.kt:16)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ig.core_backend.config.gson_config.GsonConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:746)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:678)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 37 common frames omitted
+21-02-2024 17:57:00.891 [main] [core_backend] WARN o.s.boot.SpringApplication.handleRunFailure - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.ig.core_backend.config.gson_config.GsonConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:746)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:678)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1311)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:878)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:866)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:853)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:792)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.kotlinspringboot.coursecatalogservice.CourseCatalogServiceApplicationKt.main(CourseCatalogServiceApplication.kt:16)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 25 common frames omitted
+21-02-2024 17:57:59.151 [background-preinit] [core_backend] INFO o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.1.Final
+21-02-2024 17:57:59.224 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 21424 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+21-02-2024 17:57:59.225 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+21-02-2024 17:57:59.758 [main] [core_backend] ERRORo.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.kotlinspringboot.coursecatalogservice.CourseCatalogServiceApplicationKt.main(CourseCatalogServiceApplication.kt:16)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ig.core_backend.config.gson_config.GsonConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:746)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:678)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 37 common frames omitted
+21-02-2024 17:57:59.762 [main] [core_backend] WARN o.s.boot.SpringApplication.handleRunFailure - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.ig.core_backend.config.gson_config.GsonConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:746)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:678)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1311)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:878)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:866)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:853)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:792)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at com.kotlinspringboot.coursecatalogservice.CourseCatalogServiceApplicationKt.main(CourseCatalogServiceApplication.kt:16)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 25 common frames omitted
+21-02-2024 18:02:41.836 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 24240 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+21-02-2024 18:02:41.839 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+21-02-2024 18:02:42.659 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-02-2024 18:02:42.681 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+21-02-2024 18:02:43.180 [main] [core_backend] INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+21-02-2024 18:02:43.187 [main] [core_backend] INFO o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+21-02-2024 18:02:43.190 [main] [core_backend] INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+21-02-2024 18:02:43.191 [main] [core_backend] INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.16]
+21-02-2024 18:02:43.240 [main] [core_backend] INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+21-02-2024 18:02:43.240 [main] [core_backend] INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1344 ms
+21-02-2024 18:02:43.294 [main] [core_backend] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+21-02-2024 18:02:43.299 [main] [core_backend] INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+21-02-2024 18:02:43.316 [main] [core_backend] INFO o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+21-02-2024 18:02:43.330 [main] [core_backend] ERRORo.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles prod are currently active).
+
+21-02-2024 18:25:50.484 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarting - Starting CourseCatalogServiceApplicationKt using Java 21.0.2 with PID 27952 (C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service\target\classes started by Ayoung in C:\Users\Ayoung\Projects\Learn\kotlin-springboot\course-catalog-service)
+21-02-2024 18:25:50.487 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStartupProfileInfo - The following 1 profile is active: "prod"
+21-02-2024 18:25:51.321 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-02-2024 18:25:51.338 [main] [core_backend] INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+21-02-2024 18:25:51.866 [main] [core_backend] INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8009 (http)
+21-02-2024 18:25:51.873 [main] [core_backend] INFO o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+21-02-2024 18:25:51.877 [main] [core_backend] INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+21-02-2024 18:25:51.877 [main] [core_backend] INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.16]
+21-02-2024 18:25:51.935 [main] [core_backend] INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+21-02-2024 18:25:51.936 [main] [core_backend] INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1388 ms
+21-02-2024 18:25:52.087 [main] [core_backend] WARN com.zaxxer.hikari.HikariConfig.validateNumerics - HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+21-02-2024 18:25:52.089 [main] [core_backend] WARN com.zaxxer.hikari.HikariConfig.validateNumerics - HikariPool-1 - idleTimeout is less than 10000ms, setting to default 600000ms.
+21-02-2024 18:25:52.089 [main] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+21-02-2024 18:25:52.379 [main] [core_backend] INFO com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b195203
+21-02-2024 18:25:52.380 [main] [core_backend] INFO com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+21-02-2024 18:25:52.422 [main] [core_backend] INFO o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+21-02-2024 18:25:52.485 [main] [core_backend] INFO org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.3.1.Final
+21-02-2024 18:25:52.533 [main] [core_backend] INFO o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+21-02-2024 18:25:52.779 [main] [core_backend] INFO o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+21-02-2024 18:25:52.858 [main] [core_backend] WARN org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+21-02-2024 18:25:53.090 [main] [core_backend] INFO o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+21-02-2024 18:25:53.094 [main] [core_backend] INFO o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-02-2024 18:25:53.346 [main] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized - 11 mappings in 'requestMappingHandlerMapping'
+21-02-2024 18:25:53.412 [main] [core_backend] DEBUGo.s.w.s.h.SimpleUrlHandlerMapping.logMappings - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+21-02-2024 18:25:53.446 [main] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+21-02-2024 18:25:53.479 [main] [core_backend] DEBUGo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+21-02-2024 18:25:53.591 [main] [core_backend] INFO o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+21-02-2024 18:25:53.608 [main] [core_backend] INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8009 (http) with context path ''
+21-02-2024 18:25:53.614 [main] [core_backend] INFO c.k.c.CourseCatalogServiceApplicationKt.logStarted - Started CourseCatalogServiceApplicationKt in 3.761 seconds (process running for 4.205)
+21-02-2024 18:26:23.995 [http-nio-8009-exec-1] [core_backend] INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21-02-2024 18:26:23.995 [http-nio-8009-exec-1] [core_backend] INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+21-02-2024 18:26:23.995 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initMultipartResolver - Detected StandardServletMultipartResolver
+21-02-2024 18:26:23.995 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initLocaleResolver - Detected AcceptHeaderLocaleResolver
+21-02-2024 18:26:23.995 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initThemeResolver - Detected FixedThemeResolver
+21-02-2024 18:26:23.996 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initRequestToViewNameTranslator - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@e2f6a45
+21-02-2024 18:26:23.997 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initFlashMapManager - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3cf70afa
+21-02-2024 18:26:23.997 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.initServletBean - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+21-02-2024 18:26:23.997 [http-nio-8009-exec-1] [core_backend] INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+21-02-2024 18:26:24.008 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/v1/greetings/Ayoung", parameters={}
+21-02-2024 18:26:24.023 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.kotlinspringboot.coursecatalogservice.controller.GreetingController#retrieveGreeting(String)
+21-02-2024 18:26:24.101 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+21-02-2024 18:26:24.102 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing ["Ayoung, Hello From Default Profile"]
+21-02-2024 18:26:24.108 [http-nio-8009-exec-1] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+21-02-2024 18:26:24.241 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/favicon.ico", parameters={}
+21-02-2024 18:26:24.245 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.w.s.h.SimpleUrlHandlerMapping.getHandler - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+21-02-2024 18:26:24.248 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.w.s.r.ResourceHttpRequestHandler.handleRequest - Resource not found
+21-02-2024 18:26:24.251 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException - Using @ExceptionHandler com.ig.core_backend.core.GlobalExceptionHandler#handleException(Exception, WebRequest)
+21-02-2024 18:26:24.436 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.w.s.m.m.a.HttpEntityMethodProcessor.writeWithMessageConverters - Using 'application/problem+json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/problem+json]
+21-02-2024 18:26:24.440 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.w.s.m.m.a.HttpEntityMethodProcessor.traceDebug - Writing [ProblemDetail[type='about:blank', title='Not Found', status=404, detail='No static resource favicon. (truncated)...]
+21-02-2024 18:26:24.453 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.resolveException - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+21-02-2024 18:26:24.454 [http-nio-8009-exec-2] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 404 NOT_FOUND
+21-02-2024 18:26:28.381 [http-nio-8009-exec-4] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/v1/greetings/Ayoung", parameters={}
+21-02-2024 18:26:28.382 [http-nio-8009-exec-4] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.kotlinspringboot.coursecatalogservice.controller.GreetingController#retrieveGreeting(String)
+21-02-2024 18:26:28.383 [http-nio-8009-exec-4] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+21-02-2024 18:26:28.383 [http-nio-8009-exec-4] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing ["Ayoung, Hello From Default Profile"]
+21-02-2024 18:26:28.384 [http-nio-8009-exec-4] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+21-02-2024 18:26:29.039 [http-nio-8009-exec-5] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/v1/greetings/Ayoung", parameters={}
+21-02-2024 18:26:29.039 [http-nio-8009-exec-5] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.kotlinspringboot.coursecatalogservice.controller.GreetingController#retrieveGreeting(String)
+21-02-2024 18:26:29.040 [http-nio-8009-exec-5] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+21-02-2024 18:26:29.041 [http-nio-8009-exec-5] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing ["Ayoung, Hello From Default Profile"]
+21-02-2024 18:26:29.042 [http-nio-8009-exec-5] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+21-02-2024 18:26:29.197 [http-nio-8009-exec-6] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/v1/greetings/Ayoung", parameters={}
+21-02-2024 18:26:29.198 [http-nio-8009-exec-6] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.kotlinspringboot.coursecatalogservice.controller.GreetingController#retrieveGreeting(String)
+21-02-2024 18:26:29.198 [http-nio-8009-exec-6] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+21-02-2024 18:26:29.199 [http-nio-8009-exec-6] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing ["Ayoung, Hello From Default Profile"]
+21-02-2024 18:26:29.199 [http-nio-8009-exec-6] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+21-02-2024 18:26:29.360 [http-nio-8009-exec-7] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/v1/greetings/Ayoung", parameters={}
+21-02-2024 18:26:29.361 [http-nio-8009-exec-7] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.kotlinspringboot.coursecatalogservice.controller.GreetingController#retrieveGreeting(String)
+21-02-2024 18:26:29.362 [http-nio-8009-exec-7] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+21-02-2024 18:26:29.362 [http-nio-8009-exec-7] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing ["Ayoung, Hello From Default Profile"]
+21-02-2024 18:26:29.362 [http-nio-8009-exec-7] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+21-02-2024 18:26:29.583 [http-nio-8009-exec-9] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.traceDebug - GET "/v1/greetings/Ayoung", parameters={}
+21-02-2024 18:26:29.584 [http-nio-8009-exec-9] [core_backend] DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping.getHandler - Mapped to com.kotlinspringboot.coursecatalogservice.controller.GreetingController#retrieveGreeting(String)
+21-02-2024 18:26:29.585 [http-nio-8009-exec-9] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.writeWithMessageConverters - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+21-02-2024 18:26:29.585 [http-nio-8009-exec-9] [core_backend] DEBUGo.s.w.s.m.m.a.RequestResponseBodyMethodProcessor.traceDebug - Writing ["Ayoung, Hello From Default Profile"]
+21-02-2024 18:26:29.585 [http-nio-8009-exec-9] [core_backend] DEBUGo.s.web.servlet.DispatcherServlet.logResult - Completed 200 OK
+21-02-2024 21:26:48.455 [HikariPool-1 housekeeper] [core_backend] WARN com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h26s33ms533µs199ns).
+21-02-2024 22:53:47.226 [HikariPool-1 housekeeper] [core_backend] WARN com.zaxxer.hikari.pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m2s147ms869µs1ns).
