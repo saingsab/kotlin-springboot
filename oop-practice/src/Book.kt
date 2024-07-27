@@ -1,4 +1,5 @@
 class Book(val title: String, val author: String, val isbn: String, val publishedYear: Int) {
+    // Encapsulation: isAvailable is private and can only be modified through methods
     private var isAvailable: Boolean = true
 
     fun displayDetails() {
@@ -8,9 +9,9 @@ class Book(val title: String, val author: String, val isbn: String, val publishe
     fun borrowBook() {
         if (isAvailable) {
             isAvailable = false
-            println("You have borrowed the book $title")
+            println("You have borrowed the book: $title")
         } else {
-            println("Sorry, the book $title is not available")
+            println("Sorry, the book is not available.")
         }
     }
 
